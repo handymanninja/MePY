@@ -1,0 +1,41 @@
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["kevin" , "karen" , "Jim" , "Oscar" , "Toby"]
+friends.extend(lucky_numbers)
+print(friends)
+# I have added the extend function to the string, allowing 2 Lists to be used
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends1 = ["kevin" , "karen" , "Jim" , "Oscar" , "Toby"]
+friends1.append("Creedence")
+print(friends1)
+# I have added the append function which allows me to add a slected piece of data to the list.
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends2 = ["kevin" , "karen" , "Jim" , "Oscar" , "Toby"]
+friends2.insert(1,"Kelly")
+print(friends2)
+
+#The insert function adds data to a specific location in the list using a parameter
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends3 = ["kevin" , "karen" , "Jim" , "Oscar" , "Toby"]
+friends3.remove("Jim")
+print(friends3)
+
+#I can also remove specific data from a list
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends4 = ["kevin" , "karen" , "Jim" , "Oscar" , "Toby"]
+friends4.pop()
+print(friends4)
+
+#The pop function will remove the last item off a list.
+
+print(friends.index("kevin"))
+
+#tells me what index number the data is.
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends5 = ["kevin" , "karen" , "Jim" , "Jim" "Oscar" , "Toby"]
+
+print(friends5.count("Jim"))
