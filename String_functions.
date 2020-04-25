@@ -1,0 +1,93 @@
+print("\n")
+
+print ("Giraffe\nAcademy")
+
+# \n separates the text into a new paragraph
+
+print ("\n")
+
+print ("Giraffe\"Academy")
+
+# \" This is how to input quotation marks without python closing
+#  the string.
+
+print ("\n")
+
+phrase = "Giraffe Academy"
+print (phrase)
+# storing phrases as a variable
+
+print ("\n")
+
+phrase = "Giraffe Academy"
+print (phrase + " is cool")
+
+# This is called concatenation, for appending a string onto a string.
+
+print ("\n")
+
+phrase = "Giraffe Academy"
+print (phrase.lower())
+
+print("\n")
+
+# this is adding a function ont the variable, so the lower function makes-
+# the string lower case.
+
+phrase = "Giraffe Academy"
+print (phrase.upper())
+
+# same result just in upper case.
+
+print("\n")
+
+phrase = "Giraffe Academy"
+print (phrase.isupper())
+
+# the is function will tell me if the string is entirely upper case
+# but it isn't so it has given me a false result.
+
+print("\n")
+
+phrase = "Giraffe Academy"
+print (phrase.upper().isupper())
+
+# combination function, now it will print the string in upper case
+# Therefore the is function running in the variable is now true.
+
+print("\n")
+
+phrase = "Giraffe Academy"
+print (len(phrase))
+
+# adding on the len function lets me know how many
+# characters there are in the string.
+
+print("\n")
+
+phrase = "Giraffe Academy"
+#         0123456789
+print (phrase[0])
+
+# you can pull specific characters out of a string
+# using square brackets and typing in the specific character.
+# python starts numerically at (0) not (1).
+# this is an index.
+
+print ("\n")
+
+phrase = "Giraffe Academy"
+print (phrase.index("G"))
+
+# this i called the index function
+# and is also referred to as passing a parameter
+# inside the parenthesis is "g"
+# the index function tells me what number character the-
+# selected index is.
+
+print("\n")
+
+phrase = "Giraffe Academy"
+print (phrase.index("Acad"))
+
+print ("\n")
