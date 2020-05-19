@@ -1,0 +1,100 @@
+print(2)
+
+print("\n")
+
+print(2.097)
+
+print("\n")
+
+print(-2.097)
+
+print("\n")
+
+#  python has no problem printing numbers that are input into a string
+
+print(3 + 4.5)
+
+# Python can also handle basic arithmetic this way.
+
+print("\n")
+
+print(3 * (4 + 5))
+
+# you can use python to do more complicated arithmetic
+# using parenthesis
+
+print("\n")
+
+print(10 % 3)
+
+# modulas operator
+
+print("\n")
+
+my_num = 5
+print(my_num)
+
+# storing numbers as variables
+
+print("\n")
+
+my_num = 5
+print(str(my_num) + " my favorite number")
+
+# A string alongside a number.
+
+print("\n")
+
+my_num = -5
+print(abs(my_num))
+
+# This gives me the absolute value of a number
+# In this Eg. It's "5".
+
+print("\n")
+
+my_num = -5
+print(pow(3, 2))
+
+# Basically 3^2 / 3 raised to the power of 2.
+# pow is the power function.
+
+print("\n")
+
+my_num = -5
+print(max(4, 6))
+
+# This function prints out the biggest number in the string.
+
+print("\n")
+
+my_num = -5
+print(min(4, 6))
+
+# min will do the oppoisite.
+
+print("\n")
+
+my_num = -5
+print(round(3.2))
+print(round(3.7))
+
+
+# round function, will round it the number to the closest.
+
+print("\n")
+
+from math import *
+
+my_num = -5
+print(floor(3.7))
+
+# from math import * will bring over more maths functions
+# the floor function will basically cut off the decimal point.
+
+print("\n")
+
+my_num = -5
+print(ceil(3.7))
+
+# ceil just will round the number up.
